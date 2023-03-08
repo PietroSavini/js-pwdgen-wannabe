@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://thehackernews.com/images/-07O649m7bZU/YPGy1slYgMI/AAAAAAAABJA/x30NYvoBqsYsUlsLBijjFINBngxN2TJYQCLcBGAsYHQ/s728-e3650/Password-Security.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 300px;
+    width: 600px;
+    background-color: rgba(0, 0, 0,.4);
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.box span{
+    display: block;
+    margin-top: 3rem;
+    font-size: 70px;
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0,.7) ;
+    border-radius: 25px;
+}
